@@ -1,0 +1,65 @@
+
+h1 ,legend{
+   font-family: 'Darker Grotesque', sans-serif;
+   color:rgb(29, 29, 79)
+}
+body{
+    background-color: lightslategrey;
+}
+
+
+.form-control{
+font-family: 'Chakra Petch', sans-serif;
+border-top-color: rgb(29, 29, 79);
+border-top-width: 3px;
+
+}
+
+.abs-right{
+    float: right;
+    transform: rotate(180deg);
+}
+
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+button {
+ /* Variables */
+--button_radius: 0.75em;
+--button_color: #e8e8e8;
+--button_outline_color: rgb(29, 29, 79);
+font-size: 17px;
+font-weight: bold;
+border: none;
+border-radius: var(--button_radius);
+background: var(--button_outline_color);
+
+align-content: 350px;
+}
+
+.button_top {
+display: block;
+box-sizing: border-box;
+border: 2px solid var(--button_outline_color);
+border-radius: var(--button_radius);
+padding: 0.75em 1.5em;
+background: var(--button_color);
+color: var(--button_outline_color);
+transform: translateY(-0.2em);
+transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+transform: translateY(0);
+}
