@@ -1,4 +1,4 @@
-
+/* Estilo del título */
 h1 ,legend{
    font-family: 'Darker Grotesque', sans-serif;
    color:rgb(29, 29, 79)
@@ -7,7 +7,7 @@ body{
     background-color: lightslategrey;
 }
 
-
+/* Estilo de los input */
 .form-control{
 font-family: 'Chakra Petch', sans-serif;
 border-top-color: rgb(29, 29, 79);
@@ -27,7 +27,7 @@ border-top-width: 3px;
     justify-content: center;
     min-height: 100px;
 }
-
+/* Estilo del botón */
 button {
  /* Variables */
 --button_radius: 0.75em;
